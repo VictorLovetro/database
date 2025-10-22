@@ -1,0 +1,11 @@
+use sakila;
+
+select *
+from address
+where address2 IS NULL
+
+use sakila;
+
+Select *
+from actor
+LIMIT 4, 10
